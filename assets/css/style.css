@@ -1,10 +1,9 @@
 
 body {
-      background: #dddddd;
+      /* background: #dddddd; */
       height: 100%;
-      background-image: url("/assets/images/full-bloom.png")
+      background-image: url("../images/backgroundimg.png")
   }
-
 header{
     position: fixed;
     width: 100%;
@@ -180,3 +179,35 @@ textarea{
     margin-top: 5px;
     height: 165px;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.portfolioImg{
+    width: 250px;
+    height: 127px;
+    background: #01B6AD;
+    float: left;
+    }
+
+    .overlap {
+        margin-left: 26px;
+        margin-top: 110px;
+        width: 240px;
+        color: #ffffff;
+        position: absolute;
+        text-align: center;
+        background: #01B6AD;
+        border: 0px solid #01B6AD;
+        padding: 5px;
+      }
